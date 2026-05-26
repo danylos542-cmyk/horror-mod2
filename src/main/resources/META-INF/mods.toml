@@ -1,0 +1,8 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+
+[[mods]]
+modId = "horrormod"
+version = "1.0.0"
+displayName = "Horror Mod"
+description = "Кошмарные миры и преследующий NPC"
