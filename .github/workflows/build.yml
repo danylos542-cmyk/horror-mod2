@@ -18,13 +18,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     
-    - name: Make gradlew executable
-      run: chmod +x gradlew
+    - name: Build
+      run: ./gradlew build
     
-    - name: Build with Gradle
-      run: ./gradlew build --no-daemon
-    
-    - name: Upload Artifact
+    - name: Upload
       uses: actions/upload-artifact@v4
       with:
         name: HorrorMod-1.20.1
